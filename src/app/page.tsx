@@ -297,10 +297,15 @@ const stacks: Record<string, StackRec[]> = {
 function TechStackCalculator() {
   const [bizType, setBizType] = useState("");
   const [results, setResults] = useState<StackRec[] | null>(null);
+  const [showError, setShowError] = useState(false);
 
   function handleSubmit(e: FormEvent) {
     e.preventDefault();
-    if (!bizType) return;
+    if (!bizType) {
+      setShowError(true);
+      return;
+    }
+    setShowError(false);
     setResults(stacks[bizType] || null);
   }
 
@@ -316,6 +321,7 @@ function TechStackCalculator() {
               onChange={(e) => {
                 setBizType(e.target.value);
                 setResults(null);
+                setShowError(false);
               }}
             >
               <option value="">Select your business type...</option>
@@ -324,10 +330,15 @@ function TechStackCalculator() {
               <option value="ecommerce">E-commerce / Online Store</option>
               <option value="startup">Startup / Small Business</option>
             </select>
+            {showError && (
+              <p style={{ color: "#ef4444", fontSize: "0.82rem", marginTop: "var(--space-sm)" }}>
+                Please select a business type first.
+              </p>
+            )}
           </div>
         </div>
         <div style={{ textAlign: "center", marginTop: "var(--space-xl)" }}>
-          <button type="submit" className="btn btn-primary" disabled={!bizType}>
+          <button type="submit" className="btn btn-primary">
             Get My Recommendations
           </button>
         </div>

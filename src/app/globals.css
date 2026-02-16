@@ -75,7 +75,7 @@ section { padding: var(--space-3xl) 0; }
 /* Navigation */
 .nav { position: fixed; top: 0; left: 0; right: 0; height: var(--nav-height); background: rgba(9,9,11,0.88); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid var(--border); z-index: 100; }
 .nav-inner { max-width: var(--max-width); margin: 0 auto; padding: 0 var(--space-lg); height: 100%; display: flex; align-items: center; justify-content: space-between; }
-.nav-logo { font-size: 1.1rem; font-weight: 800; color: var(--text-primary); letter-spacing: -0.02em; }
+.nav-logo { font-size: 1.1rem; font-weight: 800; color: var(--text-primary); letter-spacing: -0.02em; white-space: nowrap; }
 .nav-logo .accent { color: var(--accent); }
 .nav-links { display: flex; list-style: none; gap: var(--space-xl); align-items: center; }
 .nav-links a { font-size: 0.82rem; font-weight: 500; color: var(--text-secondary); }

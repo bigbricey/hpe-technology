@@ -24,12 +24,21 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://www.hpe-technology.com",
     siteName: "HPE Technology",
+    images: [
+      {
+        url: "https://www.hpe-technology.com/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "HPE Technology — Independent Tech Reviews & Comparisons",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "HPE Technology — Independent Tech Reviews & Comparisons",
     description:
       "Unbiased tech reviews and comparisons for businesses.",
+    images: ["https://www.hpe-technology.com/og-image.png"],
   },
   robots: { index: true, follow: true },
   alternates: { canonical: "https://www.hpe-technology.com" },
