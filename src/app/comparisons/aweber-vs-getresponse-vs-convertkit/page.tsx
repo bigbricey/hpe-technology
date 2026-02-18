@@ -207,7 +207,7 @@ export default function AWeberVsGetResponseVsConvertKit() {
                     <td></td>
                     <td>
                       <a
-                        href="#aweber-visit"
+                        href="https://www.aweber.com/easy-email.htm?id=560393"
                         rel="noopener noreferrer nofollow"
                         target="_blank"
                         className="table-btn"
@@ -764,7 +764,7 @@ export default function AWeberVsGetResponseVsConvertKit() {
               </p>
               <div style={{ display: "flex", gap: "var(--space-md)", justifyContent: "center", flexWrap: "wrap" }}>
                 <a
-                  href="#aweber-visit"
+                  href="https://www.aweber.com/easy-email.htm?id=560393"
                   rel="noopener noreferrer nofollow"
                   target="_blank"
                   className="btn btn-primary"

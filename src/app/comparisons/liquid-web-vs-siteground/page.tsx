@@ -188,7 +188,7 @@ export default function LiquidWebVsSiteGround() {
                     </td>
                     <td>
                       <a
-                        href="#siteground-visit"
+                        href="https://www.siteground.com/index.htm?afcode=c2941fdd460cd06f2934da5b8b7dca28"
                         rel="noopener noreferrer nofollow"
                         target="_blank"
                         className="table-btn"
@@ -422,7 +422,7 @@ export default function LiquidWebVsSiteGround() {
                 <strong>Want reliable shared hosting at an unbeatable price?</strong>
               </p>
               <a
-                href="#siteground-visit"
+                href="https://www.siteground.com/index.htm?afcode=c2941fdd460cd06f2934da5b8b7dca28"
                 rel="noopener noreferrer nofollow"
                 target="_blank"
                 className="btn btn-primary"
@@ -634,7 +634,7 @@ export default function LiquidWebVsSiteGround() {
                   Visit Liquid Web
                 </a>
                 <a
-                  href="#siteground-visit"
+                  href="https://www.siteground.com/index.htm?afcode=c2941fdd460cd06f2934da5b8b7dca28"
                   rel="noopener noreferrer nofollow"
                   target="_blank"
                   className="btn btn-primary"

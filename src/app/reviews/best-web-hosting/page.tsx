@@ -80,7 +80,7 @@ export default function BestWebHosting() {
                   <td>99.99%</td>
                   <td>243ms</td>
                   <td>24/7 chat + phone (priority on GoGeek)</td>
-                  <td><a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit SiteGround</a></td>
+                  <td><a href="https://www.siteground.com/index.htm?afcode=c2941fdd460cd06f2934da5b8b7dca28" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit SiteGround</a></td>
                 </tr>
                 <tr>
                   <td><strong>Bluehost</strong></td>
@@ -281,7 +281,7 @@ export default function BestWebHosting() {
 
           <div className="article-cta">
             <p><strong>Best Value:</strong> GrowBig plan at $4.99/month gives you unlimited sites, staging, and priority support.</p>
-            <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">
+            <a href="https://www.siteground.com/index.htm?afcode=c2941fdd460cd06f2934da5b8b7dca28" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">
               Get Started with SiteGround
             </a>
           </div>
@@ -567,7 +567,7 @@ export default function BestWebHosting() {
               <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">
                 Visit Liquid Web
               </a>
-              <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-secondary">
+              <a href="https://www.siteground.com/index.htm?afcode=c2941fdd460cd06f2934da5b8b7dca28" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-secondary">
                 Visit SiteGround
               </a>
             </div>
