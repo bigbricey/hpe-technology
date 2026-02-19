@@ -71,7 +71,7 @@ export default function BestProjectManagement() {
                   <td className="winner">8+ (Kanban, Gantt, Calendar, Timeline, Map, etc.)</td>
                   <td className="winner">250/mo (Standard) to unlimited</td>
                   <td>200+</td>
-                  <td><a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit Monday.com</a></td>
+                  <td><a href="/out/mondaycom" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit Monday.com</a></td>
                 </tr>
                 <tr>
                   <td><strong>Asana</strong></td>
@@ -80,7 +80,7 @@ export default function BestProjectManagement() {
                   <td>5 (List, Board, Timeline, Calendar, Gantt)</td>
                   <td>Unlimited (Starter+)</td>
                   <td className="winner">300+</td>
-                  <td><a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit Asana</a></td>
+                  <td><a href="/out/asana" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit Asana</a></td>
                 </tr>
                 <tr>
                   <td><strong>Trello</strong></td>
@@ -89,7 +89,7 @@ export default function BestProjectManagement() {
                   <td>5 (Board, Timeline, Calendar, Dashboard, Map)</td>
                   <td>1,000/mo (Standard)</td>
                   <td>200+</td>
-                  <td><a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit Trello</a></td>
+                  <td><a href="/out/trello" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit Trello</a></td>
                 </tr>
                 <tr>
                   <td><strong>ClickUp</strong></td>
@@ -98,7 +98,7 @@ export default function BestProjectManagement() {
                   <td className="winner">15+ (List, Board, Gantt, Calendar, Map, Mind Map, etc.)</td>
                   <td>Unlimited (Business+)</td>
                   <td>200+</td>
-                  <td><a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit ClickUp</a></td>
+                  <td><a href="/out/clickup" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit ClickUp</a></td>
                 </tr>
                 <tr>
                   <td><strong>Notion</strong></td>
@@ -107,7 +107,7 @@ export default function BestProjectManagement() {
                   <td>6 (Table, Board, Gallery, List, Calendar, Timeline)</td>
                   <td>Database automations</td>
                   <td>100+</td>
-                  <td><a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit Notion</a></td>
+                  <td><a href="/out/notion" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit Notion</a></td>
                 </tr>
               </tbody>
             </table>
@@ -142,9 +142,7 @@ export default function BestProjectManagement() {
                 similar tools. Non-technical team members love the visual interface, while project
                 managers appreciate the automation engine.
               </p>
-              <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary" style={{ marginTop: "var(--space-md)" }}>
-                Visit Monday.com
-              </a>
+              <a href="/out/mondaycom" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary" style={{ marginTop: "var(--space-md)" }}>Visit Monday.com</a>
             </div>
           </div>
 
@@ -217,9 +215,7 @@ export default function BestProjectManagement() {
 
           <div className="article-cta">
             <p><strong>Top Pick:</strong> Monday.com Standard at $12/seat/month. 14-day free trial with no credit card required.</p>
-            <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">
-              Try Monday.com Free
-            </a>
+            <a href="/out/mondaycom" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">Try Monday.com Free</a>
           </div>
 
           {/* #2 Asana */}
@@ -293,9 +289,7 @@ export default function BestProjectManagement() {
 
           <div className="article-cta">
             <p><strong>For Structured Teams:</strong> Asana Starter at $10.99/seat/month with Workflow Builder and unlimited automations.</p>
-            <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">
-              Try Asana Free
-            </a>
+            <a href="/out/asana" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">Try Asana Free</a>
           </div>
 
           {/* #3 Trello */}
@@ -367,9 +361,7 @@ export default function BestProjectManagement() {
 
           <div className="article-cta">
             <p><strong>Keep it Simple:</strong> Trello Standard at $5/user/month. Unlimited boards, custom fields, and automations.</p>
-            <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">
-              Try Trello Free
-            </a>
+            <a href="/out/trello" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">Try Trello Free</a>
           </div>
 
           {/* #4 ClickUp */}
@@ -443,9 +435,7 @@ export default function BestProjectManagement() {
 
           <div className="article-cta">
             <p><strong>Most Features:</strong> ClickUp Unlimited at $7/user/month. Time tracking, docs, and 15+ views included.</p>
-            <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">
-              Try ClickUp Free
-            </a>
+            <a href="/out/clickup" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">Try ClickUp Free</a>
           </div>
 
           {/* #5 Notion */}
@@ -521,9 +511,7 @@ export default function BestProjectManagement() {
 
           <div className="article-cta">
             <p><strong>Docs + Projects:</strong> Notion Plus at $8/seat/month. The only tool where your wiki and task boards coexist.</p>
-            <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">
-              Try Notion Free
-            </a>
+            <a href="/out/notion" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">Try Notion Free</a>
           </div>
 
           {/* How to Choose */}
@@ -576,12 +564,8 @@ export default function BestProjectManagement() {
               features per dollar.
             </p>
             <div style={{ display: "flex", gap: "var(--space-md)", justifyContent: "center", flexWrap: "wrap", marginTop: "var(--space-md)" }}>
-              <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">
-                Try Monday.com
-              </a>
-              <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-secondary">
-                Try ClickUp
-              </a>
+              <a href="/out/mondaycom" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">Try Monday.com</a>
+              <a href="/out/clickup" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-secondary">Try ClickUp</a>
             </div>
           </div>
 

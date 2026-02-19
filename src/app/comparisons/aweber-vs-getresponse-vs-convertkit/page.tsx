@@ -217,23 +217,19 @@ export default function AWeberVsGetResponseVsConvertKit() {
                     </td>
                     <td>
                       <a
-                        href="#getresponse-visit"
+                        href="/out/getresponse"
                         rel="noopener noreferrer nofollow"
                         target="_blank"
                         className="table-btn"
-                      >
-                        Try GetResponse Free
-                      </a>
+                      >Try GetResponse Free</a>
                     </td>
                     <td>
                       <a
-                        href="#convertkit-visit"
+                        href="/out/convertkit"
                         rel="noopener noreferrer nofollow"
                         target="_blank"
                         className="table-btn"
-                      >
-                        Try ConvertKit Free
-                      </a>
+                      >Try ConvertKit Free</a>
                     </td>
                   </tr>
                 </tbody>
@@ -332,13 +328,11 @@ export default function AWeberVsGetResponseVsConvertKit() {
                 <strong>Want the most powerful automation features?</strong>
               </p>
               <a
-                href="#getresponse-visit"
+                href="/out/getresponse"
                 rel="noopener noreferrer nofollow"
                 target="_blank"
                 className="btn btn-primary"
-              >
-                Try GetResponse Free &mdash; Full Automation Suite
-              </a>
+              >Try GetResponse Free &mdash; Full Automation Suite</a>
             </div>
 
             {/* Automation */}
@@ -458,13 +452,11 @@ export default function AWeberVsGetResponseVsConvertKit() {
                 <strong>Creator? Start with 10,000 subscribers for free.</strong>
               </p>
               <a
-                href="#convertkit-visit"
+                href="/out/convertkit"
                 rel="noopener noreferrer nofollow"
                 target="_blank"
                 className="btn btn-primary"
-              >
-                Try ConvertKit Free &mdash; 10,000 Subscribers
-              </a>
+              >Try ConvertKit Free &mdash; 10,000 Subscribers</a>
             </div>
 
             {/* Templates and Design */}
@@ -772,21 +764,17 @@ export default function AWeberVsGetResponseVsConvertKit() {
                   Try AWeber Free
                 </a>
                 <a
-                  href="#getresponse-visit"
+                  href="/out/getresponse"
                   rel="noopener noreferrer nofollow"
                   target="_blank"
                   className="btn btn-primary"
-                >
-                  Try GetResponse Free
-                </a>
+                >Try GetResponse Free</a>
                 <a
-                  href="#convertkit-visit"
+                  href="/out/convertkit"
                   rel="noopener noreferrer nofollow"
                   target="_blank"
                   className="btn btn-primary"
-                >
-                  Try ConvertKit Free
-                </a>
+                >Try ConvertKit Free</a>
               </div>
             </div>
 

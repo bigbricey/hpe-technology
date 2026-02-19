@@ -178,13 +178,11 @@ export default function LiquidWebVsSiteGround() {
                     <td></td>
                     <td>
                       <a
-                        href="#liquid-web-visit"
+                        href="/out/liquid-web"
                         rel="noopener noreferrer nofollow"
                         target="_blank"
                         className="table-btn"
-                      >
-                        Visit Liquid Web
-                      </a>
+                      >Visit Liquid Web</a>
                     </td>
                     <td>
                       <a
@@ -272,13 +270,11 @@ export default function LiquidWebVsSiteGround() {
                 <strong>Looking for enterprise-grade managed hosting?</strong>
               </p>
               <a
-                href="#liquid-web-visit"
+                href="/out/liquid-web"
                 rel="noopener noreferrer nofollow"
                 target="_blank"
                 className="btn btn-primary"
-              >
-                Try Liquid Web &mdash; 100% Uptime SLA
-              </a>
+              >Try Liquid Web &mdash; 100% Uptime SLA</a>
             </div>
 
             {/* Performance */}
@@ -626,13 +622,11 @@ export default function LiquidWebVsSiteGround() {
               </p>
               <div style={{ display: "flex", gap: "var(--space-md)", justifyContent: "center", flexWrap: "wrap" }}>
                 <a
-                  href="#liquid-web-visit"
+                  href="/out/liquid-web"
                   rel="noopener noreferrer nofollow"
                   target="_blank"
                   className="btn btn-primary"
-                >
-                  Visit Liquid Web
-                </a>
+                >Visit Liquid Web</a>
                 <a
                   href="https://www.siteground.com/index.htm?afcode=c2941fdd460cd06f2934da5b8b7dca28"
                   rel="noopener noreferrer nofollow"

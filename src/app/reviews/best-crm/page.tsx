@@ -72,7 +72,7 @@ export default function BestCRM() {
                   <td className="winner">1,000,000 (free)</td>
                   <td>Workflows (Starter+)</td>
                   <td className="winner">1,600+ (App Marketplace)</td>
-                  <td><a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit HubSpot</a></td>
+                  <td><a href="/out/hubspot" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit HubSpot</a></td>
                 </tr>
                 <tr>
                   <td><strong>Salesforce</strong></td>
@@ -81,7 +81,7 @@ export default function BestCRM() {
                   <td>Unlimited</td>
                   <td className="winner">Flow Builder (most powerful)</td>
                   <td>4,000+ (AppExchange)</td>
-                  <td><a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit Salesforce</a></td>
+                  <td><a href="/out/salesce" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit Salesforce</a></td>
                 </tr>
                 <tr>
                   <td><strong>Pipedrive</strong></td>
@@ -90,7 +90,7 @@ export default function BestCRM() {
                   <td>Unlimited</td>
                   <td>Automations (Advanced+)</td>
                   <td>400+</td>
-                  <td><a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit Pipedrive</a></td>
+                  <td><a href="/out/pipedrive" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit Pipedrive</a></td>
                 </tr>
                 <tr>
                   <td><strong>Zoho CRM</strong></td>
@@ -99,7 +99,7 @@ export default function BestCRM() {
                   <td>Unlimited (paid)</td>
                   <td>Blueprint process mgmt</td>
                   <td>500+ (Zoho Marketplace)</td>
-                  <td><a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit Zoho CRM</a></td>
+                  <td><a href="/out/zoho-crm" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit Zoho CRM</a></td>
                 </tr>
                 <tr>
                   <td><strong>Freshsales</strong></td>
@@ -108,7 +108,7 @@ export default function BestCRM() {
                   <td>Unlimited (paid)</td>
                   <td>Workflows (Growth+)</td>
                   <td>100+</td>
-                  <td><a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit Freshsales</a></td>
+                  <td><a href="/out/freshsales" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit Freshsales</a></td>
                 </tr>
               </tbody>
             </table>
@@ -155,9 +155,7 @@ export default function BestCRM() {
                 When you are ready to upgrade, their ecosystem (Marketing Hub, Sales Hub, Service Hub,
                 CMS Hub, Operations Hub) grows with you without switching platforms.
               </p>
-              <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary" style={{ marginTop: "var(--space-md)" }}>
-                Start Free with HubSpot
-              </a>
+              <a href="/out/start-with-hubspot" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary" style={{ marginTop: "var(--space-md)" }}>Start Free with HubSpot</a>
             </div>
           </div>
 
@@ -233,9 +231,7 @@ export default function BestCRM() {
 
           <div className="article-cta">
             <p><strong>Top Pick:</strong> Start with HubSpot&apos;s free CRM. Upgrade to Starter at $15/month when you need automation and branding removal.</p>
-            <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">
-              Get HubSpot Free
-            </a>
+            <a href="/out/get-hubspot" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">Get HubSpot Free</a>
           </div>
 
           {/* #2 Salesforce */}
@@ -313,9 +309,7 @@ export default function BestCRM() {
 
           <div className="article-cta">
             <p><strong>Enterprise Power:</strong> Salesforce Starter Suite at $25/user/month. 30-day free trial, no credit card required.</p>
-            <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">
-              Try Salesforce Free
-            </a>
+            <a href="/out/salesce" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">Try Salesforce Free</a>
           </div>
 
           {/* #3 Pipedrive */}
@@ -393,9 +387,7 @@ export default function BestCRM() {
 
           <div className="article-cta">
             <p><strong>Sales Focused:</strong> Pipedrive Advanced at $24/seat/month. Full email sync, automations, and scheduling included.</p>
-            <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">
-              Try Pipedrive Free
-            </a>
+            <a href="/out/pipedrive" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">Try Pipedrive Free</a>
           </div>
 
           {/* #4 Zoho CRM */}
@@ -473,9 +465,7 @@ export default function BestCRM() {
 
           <div className="article-cta">
             <p><strong>Best Value:</strong> Zoho CRM Professional at $23/user/month with Blueprint automation and custom modules.</p>
-            <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">
-              Try Zoho CRM Free
-            </a>
+            <a href="/out/zoho-crm" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">Try Zoho CRM Free</a>
           </div>
 
           {/* #5 Freshsales */}
@@ -551,9 +541,7 @@ export default function BestCRM() {
 
           <div className="article-cta">
             <p><strong>All-in-One Comms:</strong> Freshsales Growth at $9/user/month with built-in phone, email, chat, and lead scoring.</p>
-            <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">
-              Try Freshsales Free
-            </a>
+            <a href="/out/freshsales" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">Try Freshsales Free</a>
           </div>
 
           {/* How to Choose */}
@@ -614,12 +602,8 @@ export default function BestCRM() {
               <strong> Pipedrive</strong> delivers the fastest path from lead to closed deal.
             </p>
             <div style={{ display: "flex", gap: "var(--space-md)", justifyContent: "center", flexWrap: "wrap", marginTop: "var(--space-md)" }}>
-              <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">
-                Get HubSpot Free
-              </a>
-              <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-secondary">
-                Try Pipedrive
-              </a>
+              <a href="/out/get-hubspot" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">Get HubSpot Free</a>
+              <a href="/out/pipedrive" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-secondary">Try Pipedrive</a>
             </div>
           </div>
 

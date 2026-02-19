@@ -71,7 +71,7 @@ export default function BestVPN() {
                   <td>10</td>
                   <td className="winner">92%</td>
                   <td className="winner">Deloitte (2024)</td>
-                  <td><a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit NordVPN</a></td>
+                  <td><a href="/out/nordvpn" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit NordVPN</a></td>
                 </tr>
                 <tr>
                   <td><strong>Surfshark</strong></td>
@@ -80,7 +80,7 @@ export default function BestVPN() {
                   <td className="winner">Unlimited</td>
                   <td>88%</td>
                   <td>Deloitte (2023)</td>
-                  <td><a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit Surfshark</a></td>
+                  <td><a href="/out/surfshark" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit Surfshark</a></td>
                 </tr>
                 <tr>
                   <td><strong>ExpressVPN</strong></td>
@@ -89,7 +89,7 @@ export default function BestVPN() {
                   <td>10</td>
                   <td>91%</td>
                   <td>KPMG (2024)</td>
-                  <td><a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit ExpressVPN</a></td>
+                  <td><a href="/out/expressvpn" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit ExpressVPN</a></td>
                 </tr>
                 <tr>
                   <td><strong>ProtonVPN</strong></td>
@@ -98,7 +98,7 @@ export default function BestVPN() {
                   <td>10</td>
                   <td>85%</td>
                   <td>Securitum (2024)</td>
-                  <td><a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit ProtonVPN</a></td>
+                  <td><a href="/out/protonvpn" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit ProtonVPN</a></td>
                 </tr>
                 <tr>
                   <td><strong>CyberGhost</strong></td>
@@ -107,7 +107,7 @@ export default function BestVPN() {
                   <td>7</td>
                   <td>82%</td>
                   <td>Deloitte (2023)</td>
-                  <td><a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit CyberGhost</a></td>
+                  <td><a href="/out/cyberghost" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit CyberGhost</a></td>
                 </tr>
               </tbody>
             </table>
@@ -154,9 +154,7 @@ export default function BestVPN() {
                 mature business product (NordLayer) with centralized team management. It does everything
                 well and nothing poorly.
               </p>
-              <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary" style={{ marginTop: "var(--space-md)" }}>
-                Visit NordVPN
-              </a>
+              <a href="/out/nordvpn" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary" style={{ marginTop: "var(--space-md)" }}>Visit NordVPN</a>
             </div>
           </div>
 
@@ -229,9 +227,7 @@ export default function BestVPN() {
 
           <div className="article-cta">
             <p><strong>Top Pick:</strong> NordVPN Plus at $3.89/month includes VPN, password manager, and Threat Protection Pro.</p>
-            <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">
-              Get NordVPN
-            </a>
+            <a href="/out/get-nordvpn" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">Get NordVPN</a>
           </div>
 
           {/* #2 Surfshark */}
@@ -303,9 +299,7 @@ export default function BestVPN() {
 
           <div className="article-cta">
             <p><strong>Best Value:</strong> Surfshark Starter at $1.99/month with unlimited devices. Protect your entire team for less than a coffee.</p>
-            <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">
-              Get Surfshark
-            </a>
+            <a href="/out/get-surfshark" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">Get Surfshark</a>
           </div>
 
           {/* #3 ExpressVPN */}
@@ -376,9 +370,7 @@ export default function BestVPN() {
 
           <div className="article-cta">
             <p><strong>Fastest VPN:</strong> ExpressVPN Basic at $3.49/month with 4 extra months free on the 2-year plan.</p>
-            <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">
-              Get ExpressVPN
-            </a>
+            <a href="/out/get-expressvpn" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">Get ExpressVPN</a>
           </div>
 
           {/* #4 ProtonVPN */}
@@ -451,9 +443,7 @@ export default function BestVPN() {
 
           <div className="article-cta">
             <p><strong>Most Private:</strong> ProtonVPN Plus at $2.99/month (2-year). Swiss privacy, open-source code, and no compromises.</p>
-            <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">
-              Get ProtonVPN
-            </a>
+            <a href="/out/get-protonvpn" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">Get ProtonVPN</a>
           </div>
 
           {/* #5 CyberGhost */}
@@ -527,9 +517,7 @@ export default function BestVPN() {
 
           <div className="article-cta">
             <p><strong>Streaming King:</strong> CyberGhost at $2.03/month with 11,000+ servers and a 45-day money-back guarantee.</p>
-            <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">
-              Get CyberGhost
-            </a>
+            <a href="/out/get-cyberghost" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">Get CyberGhost</a>
           </div>
 
           {/* How to Choose */}
@@ -581,12 +569,8 @@ export default function BestVPN() {
               unlimited device coverage at an unbeatable $1.99/month.
             </p>
             <div style={{ display: "flex", gap: "var(--space-md)", justifyContent: "center", flexWrap: "wrap", marginTop: "var(--space-md)" }}>
-              <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">
-                Get NordVPN
-              </a>
-              <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-secondary">
-                Get Surfshark
-              </a>
+              <a href="/out/get-nordvpn" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">Get NordVPN</a>
+              <a href="/out/get-surfshark" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-secondary">Get Surfshark</a>
             </div>
           </div>
 

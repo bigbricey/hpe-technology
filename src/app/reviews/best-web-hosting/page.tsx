@@ -71,7 +71,7 @@ export default function BestWebHosting() {
                   <td className="winner">100%</td>
                   <td className="winner">187ms</td>
                   <td className="winner">24/7 phone + chat (59s avg)</td>
-                  <td><a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit Liquid Web</a></td>
+                  <td><a href="/out/liquid-web" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit Liquid Web</a></td>
                 </tr>
                 <tr>
                   <td><strong>SiteGround</strong></td>
@@ -89,7 +89,7 @@ export default function BestWebHosting() {
                   <td>99.95%</td>
                   <td>412ms</td>
                   <td>24/7 chat + phone</td>
-                  <td><a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit Bluehost</a></td>
+                  <td><a href="/out/bluehost" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit Bluehost</a></td>
                 </tr>
                 <tr>
                   <td><strong>WP Engine</strong></td>
@@ -98,7 +98,7 @@ export default function BestWebHosting() {
                   <td>99.99%</td>
                   <td>198ms</td>
                   <td>24/7 chat (phone on Growth+)</td>
-                  <td><a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit WP Engine</a></td>
+                  <td><a href="/out/wp-engine" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit WP Engine</a></td>
                 </tr>
                 <tr>
                   <td><strong>Hostinger</strong></td>
@@ -107,7 +107,7 @@ export default function BestWebHosting() {
                   <td>99.93%</td>
                   <td>318ms</td>
                   <td>24/7 chat (no phone)</td>
-                  <td><a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit Hostinger</a></td>
+                  <td><a href="/out/hostinger" rel="noopener noreferrer nofollow" target="_blank" className="table-btn">Visit Hostinger</a></td>
                 </tr>
               </tbody>
             </table>
@@ -139,9 +139,7 @@ export default function BestWebHosting() {
                 Their managed VPS and dedicated hosting come with a 100% uptime SLA — not 99.9%, not 99.99%,
                 but 100%. If they miss it, you get credit. In our 90-day test, they never missed it.
               </p>
-              <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary" style={{ marginTop: "var(--space-md)" }}>
-                Visit Liquid Web
-              </a>
+              <a href="/out/liquid-web" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary" style={{ marginTop: "var(--space-md)" }}>Visit Liquid Web</a>
             </div>
           </div>
 
@@ -209,9 +207,7 @@ export default function BestWebHosting() {
 
           <div className="article-cta">
             <p><strong>Ready to upgrade?</strong> Liquid Web offers free migration from any host — their team handles it for you.</p>
-            <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">
-              Get Started with Liquid Web
-            </a>
+            <a href="/out/liquid-web" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">Get Started with Liquid Web</a>
           </div>
 
           {/* #2 SiteGround */}
@@ -354,9 +350,7 @@ export default function BestWebHosting() {
 
           <div className="article-cta">
             <p><strong>New to WordPress?</strong> Bluehost gets you online in under 10 minutes with a free domain included.</p>
-            <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">
-              Get Started with Bluehost
-            </a>
+            <a href="/out/bluehost" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">Get Started with Bluehost</a>
           </div>
 
           {/* #4 WP Engine */}
@@ -429,9 +423,7 @@ export default function BestWebHosting() {
 
           <div className="article-cta">
             <p><strong>Premium WordPress:</strong> 4 months free when you pay annually. Includes free migration and 60-day guarantee.</p>
-            <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">
-              Get Started with WP Engine
-            </a>
+            <a href="/out/wp-engine" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">Get Started with WP Engine</a>
           </div>
 
           {/* #5 Hostinger */}
@@ -504,9 +496,7 @@ export default function BestWebHosting() {
 
           <div className="article-cta">
             <p><strong>Best Deal:</strong> Business plan at $3.99/month includes daily backups, CDN, and 200 GB NVMe storage.</p>
-            <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">
-              Get Started with Hostinger
-            </a>
+            <a href="/out/hostinger" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">Get Started with Hostinger</a>
           </div>
 
           {/* How to Choose */}
@@ -564,9 +554,7 @@ export default function BestWebHosting() {
               priority, <strong>SiteGround GrowBig</strong> offers the best value in shared hosting.
             </p>
             <div style={{ display: "flex", gap: "var(--space-md)", justifyContent: "center", flexWrap: "wrap", marginTop: "var(--space-md)" }}>
-              <a href="#product-visit" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">
-                Visit Liquid Web
-              </a>
+              <a href="/out/liquid-web" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-primary">Visit Liquid Web</a>
               <a href="https://www.siteground.com/index.htm?afcode=c2941fdd460cd06f2934da5b8b7dca28" rel="noopener noreferrer nofollow" target="_blank" className="btn btn-secondary">
                 Visit SiteGround
               </a>

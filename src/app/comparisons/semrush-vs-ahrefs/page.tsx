@@ -184,23 +184,19 @@ export default function SemrushVsAhrefs() {
                     <td></td>
                     <td>
                       <a
-                        href="#semrush-visit"
+                        href="/out/semrush"
                         rel="noopener noreferrer nofollow"
                         target="_blank"
                         className="table-btn"
-                      >
-                        Try Semrush Free
-                      </a>
+                      >Try Semrush Free</a>
                     </td>
                     <td>
                       <a
-                        href="#ahrefs-visit"
+                        href="/out/ahrefs"
                         rel="noopener noreferrer nofollow"
                         target="_blank"
                         className="table-btn"
-                      >
-                        Try Ahrefs
-                      </a>
+                      >Try Ahrefs</a>
                     </td>
                   </tr>
                 </tbody>
@@ -278,13 +274,11 @@ export default function SemrushVsAhrefs() {
                 <strong>Want the most complete digital marketing toolkit?</strong>
               </p>
               <a
-                href="#semrush-visit"
+                href="/out/semrush"
                 rel="noopener noreferrer nofollow"
                 target="_blank"
                 className="btn btn-primary"
-              >
-                Try Semrush Free for 7 Days
-              </a>
+              >Try Semrush Free for 7 Days</a>
             </div>
 
             {/* Keyword Research */}
@@ -430,13 +424,11 @@ export default function SemrushVsAhrefs() {
                 <strong>Looking for the best backlink analysis and keyword research?</strong>
               </p>
               <a
-                href="#ahrefs-visit"
+                href="/out/ahrefs"
                 rel="noopener noreferrer nofollow"
                 target="_blank"
                 className="btn btn-primary"
-              >
-                Try Ahrefs &mdash; Free Webmaster Tools Available
-              </a>
+              >Try Ahrefs &mdash; Free Webmaster Tools Available</a>
             </div>
 
             {/* Rank Tracking */}
@@ -631,21 +623,17 @@ export default function SemrushVsAhrefs() {
               </p>
               <div style={{ display: "flex", gap: "var(--space-md)", justifyContent: "center", flexWrap: "wrap" }}>
                 <a
-                  href="#semrush-visit"
+                  href="/out/semrush"
                   rel="noopener noreferrer nofollow"
                   target="_blank"
                   className="btn btn-primary"
-                >
-                  Try Semrush Free
-                </a>
+                >Try Semrush Free</a>
                 <a
-                  href="#ahrefs-visit"
+                  href="/out/ahrefs"
                   rel="noopener noreferrer nofollow"
                   target="_blank"
                   className="btn btn-primary"
-                >
-                  Try Ahrefs
-                </a>
+                >Try Ahrefs</a>
               </div>
             </div>
 

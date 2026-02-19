@@ -20,9 +20,7 @@ export default function Home() {
               sponsored rankings — just data.
             </p>
             <div className="hero-buttons">
-              <a href="#stack-builder" className="btn btn-primary">
-                Build Your Stack &darr;
-              </a>
+              <a href="/out/build-your-stack-darr" className="btn btn-primary">Build Your Stack &darr;</a>
               <a href="/comparisons" className="btn btn-secondary">
                 Browse Comparisons
               </a>
@@ -241,9 +239,7 @@ export default function Home() {
             or dive into our comparison library.
           </p>
           <div style={{ display: "flex", gap: "var(--space-md)", justifyContent: "center", flexWrap: "wrap" }}>
-            <a href="#stack-builder" className="btn btn-primary">
-              Build Your Stack
-            </a>
+            <a href="/out/build-your-stack" className="btn btn-primary">Build Your Stack</a>
             <a href="/comparisons" className="btn btn-secondary">
               All Comparisons
             </a>
