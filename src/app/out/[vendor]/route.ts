@@ -33,6 +33,12 @@ const affiliateLinks: Record<string, string> = {
   "trello": "https://trello.com",
   "wp-engine": "https://wpengine.com",
   "zoho-crm": "https://www.zoho.com/crm/",
+  // --- ClickBank Immediate Monetization Links ---
+  "instadoodle": "https://1ttdtr5.INSTADOODL.hop.clickbank.net",
+  "ai-master": "https://1ttdtr5.MRNNETWORK.hop.clickbank.net",
+  "profit-vault": "https://1ttdtr5.WINNINGTIC.hop.clickbank.net",
+  "app-reviews": "https://1ttdtr5.APPCOINER.hop.clickbank.net",
+  "social-paid": "https://1ttdtr5.SOCIALPAID.hop.clickbank.net",
 };
 
 export async function GET(

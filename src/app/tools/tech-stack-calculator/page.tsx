@@ -10,26 +10,32 @@ type StackOption = {
 };
 
 const STACK_DATA: Record<string, StackOption[]> = {
-    freelancer: [
+    creator: [
         { category: "Web Hosting", name: "Bluehost", desc: "Best for simple, affordable portfolios.", vendor: "bluehost" },
+        { category: "Video Marketing", name: "InstaDoodle", desc: "AI Doodle Video Creator for high-engagement content.", vendor: "instadoodle" },
+        { category: "Social Monetization", name: "Social Paid", desc: "Get paid to use Facebook, Twitter, and YouTube.", vendor: "social-paid" },
+        { category: "Side Income", name: "WriteAppReviews", desc: "Monetize your app testing skills.", vendor: "app-reviews" },
+    ],
+    freelancer: [
+        { category: "Web Hosting", name: "Hostinger", desc: "Incredibly fast cloud hosting on a budget.", vendor: "hostinger" },
         { category: "Email Marketing", name: "ConvertKit", desc: "Built specifically for creators and freelancers.", vendor: "convertkit" },
         { category: "Security / VPN", name: "NordVPN", desc: "Essential protection for remote coffee shop work.", vendor: "nordvpn" },
         { category: "Productivity", name: "Notion", desc: "All-in-one workspace for client notes & docs.", vendor: "notion" },
     ],
     agency: [
         { category: "Web Hosting", name: "WP Engine", desc: "High-performance managed WordPress hosting for clients.", vendor: "wp-engine" },
+        { category: "Video Production", name: "InstaDoodle", desc: "Produce rapid whiteboard videos for client campaigns.", vendor: "instadoodle" },
         { category: "CRM", name: "HubSpot", desc: "Enterprise-grade pipeline management for closing deals.", vendor: "hubspot" },
         { category: "Project Management", name: "Monday.com", desc: "Visual task tracking for the whole team.", vendor: "mondaycom" },
-        { category: "Security / VPN", name: "Surfshark", desc: "Unlimited device protection for your agency staff.", vendor: "surfshark" },
     ],
     ecommerce: [
-        { category: "Web Hosting", name: "Liquid Web", desc: "High-tier dedicated servers for heavy WooCommerce traffic.", vendor: "liquid-web" },
-        { category: "Email Marketing", name: "GetResponse", desc: "Powerful e-commerce automation and funnels.", vendor: "getresponse" },
+        { category: "Web Hosting", name: "Liquid Web", desc: "High-tier servers for heavy WooCommerce traffic.", vendor: "liquid-web" },
+        { category: "Affiliate Growth", name: "Profit Vault", desc: "High-converting affiliate marketing software suite.", vendor: "profit-vault" },
         { category: "SEO Tool", name: "Ahrefs", desc: "Industry-leading keyword research to beat competitors.", vendor: "ahrefs" },
-        { category: "CRM / Sales", name: "Salesforce", desc: "Robust customer data tracking.", vendor: "salesce" },
+        { category: "Email Marketing", name: "GetResponse", desc: "Powerful e-commerce automation and funnels.", vendor: "getresponse" },
     ],
     startup: [
-        { category: "Web Hosting", name: "Hostinger", desc: "Incredibly fast cloud hosting on a budget.", vendor: "hostinger" },
+        { category: "AI Infrastructure", name: "AI Master Dashboard", desc: "Access all essential AI tools in one business centralized hub.", vendor: "ai-master" },
         { category: "SEO / Growth", name: "Semrush", desc: "Suite for driving organic SaaS growth.", vendor: "semrush" },
         { category: "Productivity", name: "ClickUp", desc: "The 'one app to replace them all' for agile startups.", vendor: "clickup" },
         { category: "Security / VPN", name: "CyberGhost", desc: "Privacy compliance for early-stage companies.", vendor: "cyberghost" },
@@ -74,7 +80,8 @@ export default function TechStackCalculator() {
                             cursor: "pointer"
                         }}
                     >
-                        <option value="freelancer">Solo Freelancer / Creator</option>
+                        <option value="creator">Content Creator / Side Hustle</option>
+                        <option value="freelancer">Solo Freelancer / Consultant</option>
                         <option value="agency">Digital Agency / B2B Services</option>
                         <option value="ecommerce">E-commerce / Online Store</option>
                         <option value="startup">Tech Startup / SaaS</option>
