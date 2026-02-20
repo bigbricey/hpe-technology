@@ -22,7 +22,7 @@ export default function Tools() {
       <section>
         <div className="container">
           <div className="card-grid">
-            <a href="/#stack-builder" className="card">
+            <a href="/tools/tech-stack-calculator" className="card">
               <span className="card-tag">Popular</span>
               <h3>Tech Stack Builder</h3>
               <p>

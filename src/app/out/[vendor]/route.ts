@@ -37,13 +37,14 @@ const affiliateLinks: Record<string, string> = {
 
 export async function GET(
   request: Request,
-  { params }: { params: { vendor: string } }
+  props: { params: Promise<{ vendor: string }> }
 ) {
+  const params = await props.params;
   const vendor = params.vendor.toLowerCase();
-  
+
   // Look up the specific affiliate link or fall back to a generic search if unknown
   const destination = affiliateLinks[vendor];
-  
+
   if (destination) {
     redirect(destination);
   } else {

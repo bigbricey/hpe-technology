@@ -80,6 +80,7 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        <meta name="impact-site-verification" content="f317df64-0605-4e87-904e-d6e7276bbbb0" />
       </head>
       <body>
         <a href="#main-content" className="skip-link">

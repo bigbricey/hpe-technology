@@ -96,7 +96,11 @@ export default function Home() {
                 reviews of each.
               </p>
             </div>
-            <TechStackCalculator />
+            <div style={{ marginTop: "var(--space-md)" }}>
+              <a href="/tools/tech-stack-calculator" className="btn btn-primary" style={{ padding: "14px 24px", fontSize: "1rem" }}>
+                Launch the Stack Builder &rarr;
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -250,129 +254,7 @@ export default function Home() {
   );
 }
 
-/* ===== TECH STACK CALCULATOR ===== */
-type StackRec = {
-  category: string;
-  name: string;
-  desc: string;
-  link: string;
-  price: string;
-};
 
-const stacks: Record<string, StackRec[]> = {
-  freelancer: [
-    { category: "Hosting", name: "SiteGround", desc: "Fast, reliable shared hosting with great support", link: "/reviews/best-web-hosting#siteground", price: "From $2.99/mo" },
-    { category: "Email Marketing", name: "ConvertKit", desc: "Built for creators. Simple automation, great deliverability", link: "/comparisons/aweber-vs-getresponse-vs-convertkit#convertkit", price: "Free up to 1,000 subs" },
-    { category: "SEO", name: "Semrush", desc: "All-in-one SEO toolkit — keyword research, site audit, rank tracking", link: "/comparisons/semrush-vs-ahrefs", price: "From $139/mo" },
-    { category: "VPN", name: "Surfshark", desc: "Unlimited devices, strong privacy, great value", link: "/reviews/best-vpn#surfshark", price: "From $2.49/mo" },
-    { category: "AI Assistant", name: "Claude", desc: "Best for long-form writing, analysis, and code", link: "/ai/claude-vs-chatgpt-vs-gemini#claude", price: "Free / $20/mo Pro" },
-  ],
-  agency: [
-    { category: "Hosting", name: "Liquid Web", desc: "Managed VPS with 100% uptime SLA. Enterprise-grade.", link: "/reviews/best-web-hosting#liquid-web", price: "From $15/mo" },
-    { category: "Email Marketing", name: "GetResponse", desc: "Advanced automation, landing pages, webinars built in", link: "/comparisons/aweber-vs-getresponse-vs-convertkit#getresponse", price: "From $19/mo" },
-    { category: "SEO", name: "Semrush", desc: "All-in-one SEO toolkit with agency-level features", link: "/comparisons/semrush-vs-ahrefs", price: "From $139/mo" },
-    { category: "VPN", name: "NordVPN", desc: "Top security, dedicated IPs, business features", link: "/reviews/best-vpn#nordvpn", price: "From $3.59/mo" },
-    { category: "Project Management", name: "Monday.com", desc: "Visual project management with automation and integrations", link: "/reviews/best-project-management", price: "Free / $9/seat/mo" },
-  ],
-  ecommerce: [
-    { category: "Hosting", name: "Liquid Web", desc: "WooCommerce-optimized managed hosting", link: "/reviews/best-web-hosting#liquid-web", price: "From $15/mo" },
-    { category: "Email Marketing", name: "AWeber", desc: "Ecommerce-ready with purchase tagging and abandoned cart", link: "/comparisons/aweber-vs-getresponse-vs-convertkit#aweber", price: "Free up to 500 subs" },
-    { category: "SEO", name: "Semrush", desc: "Product keyword research and competitor analysis", link: "/comparisons/semrush-vs-ahrefs", price: "From $139/mo" },
-    { category: "VPN", name: "NordVPN", desc: "Secure payment processing and customer data", link: "/reviews/best-vpn#nordvpn", price: "From $3.59/mo" },
-    { category: "AI Assistant", name: "ChatGPT", desc: "Product descriptions, customer service, data analysis", link: "/ai/claude-vs-chatgpt-vs-gemini#chatgpt", price: "Free / $20/mo Plus" },
-  ],
-  startup: [
-    { category: "Hosting", name: "SiteGround", desc: "Start cheap, scale up. Great for early-stage.", link: "/reviews/best-web-hosting#siteground", price: "From $2.99/mo" },
-    { category: "Email Marketing", name: "ConvertKit", desc: "Free tier for first 1,000 subscribers", link: "/comparisons/aweber-vs-getresponse-vs-convertkit#convertkit", price: "Free up to 1,000 subs" },
-    { category: "CRM", name: "HubSpot", desc: "Free CRM with marketing, sales, and service tools", link: "/reviews/best-crm", price: "Free / $20/mo Starter" },
-    { category: "VPN", name: "Surfshark", desc: "Unlimited devices for the whole team", link: "/reviews/best-vpn#surfshark", price: "From $2.49/mo" },
-    { category: "AI Assistant", name: "Claude", desc: "Best for strategy docs, code, and analysis", link: "/ai/claude-vs-chatgpt-vs-gemini#claude", price: "Free / $20/mo Pro" },
-  ],
-};
-
-function TechStackCalculator() {
-  const [bizType, setBizType] = useState("");
-  const [results, setResults] = useState<StackRec[] | null>(null);
-  const [showError, setShowError] = useState(false);
-
-  function handleSubmit(e: FormEvent) {
-    e.preventDefault();
-    if (!bizType) {
-      setShowError(true);
-      return;
-    }
-    setShowError(false);
-    setResults(stacks[bizType] || null);
-  }
-
-  return (
-    <>
-      <form onSubmit={handleSubmit}>
-        <div className="tool-form">
-          <div className="form-group">
-            <label htmlFor="biz-type">What type of business are you?</label>
-            <select
-              id="biz-type"
-              value={bizType}
-              onChange={(e) => {
-                setBizType(e.target.value);
-                setResults(null);
-                setShowError(false);
-              }}
-            >
-              <option value="">Select your business type...</option>
-              <option value="freelancer">Freelancer / Solo Creator</option>
-              <option value="agency">Agency / Consultancy</option>
-              <option value="ecommerce">E-commerce / Online Store</option>
-              <option value="startup">Startup / Small Business</option>
-            </select>
-            {showError && (
-              <p style={{ color: "#ef4444", fontSize: "0.82rem", marginTop: "var(--space-sm)" }}>
-                Please select a business type first.
-              </p>
-            )}
-          </div>
-        </div>
-        <div style={{ textAlign: "center", marginTop: "var(--space-xl)" }}>
-          <button type="submit" className="btn btn-primary">
-            Get My Recommendations
-          </button>
-        </div>
-      </form>
-
-      {results && (
-        <div className="stack-results">
-          <h3 style={{ marginBottom: "var(--space-sm)", fontSize: "1.2rem" }}>
-            Your Recommended Stack
-          </h3>
-          <p style={{ marginBottom: "var(--space-lg)", fontSize: "0.85rem" }}>
-            Based on your business type, here are our top picks in each category.
-            Click any tool to read our full review.
-          </p>
-          {results.map((r) => (
-            <a href={r.link} key={r.category} className="stack-item" style={{ textDecoration: "none", color: "inherit" }}>
-              <div className="stack-item-info">
-                <span className="stack-category">{r.category}</span>
-                <span className="stack-name">{r.name}</span>
-                <span className="stack-desc">{r.desc}</span>
-              </div>
-              <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-end", gap: "4px" }}>
-                <span style={{ fontSize: "0.82rem", color: "var(--accent)", fontWeight: 600 }}>
-                  {r.price}
-                </span>
-                <span className="table-btn">Read Review</span>
-              </div>
-            </a>
-          ))}
-          <p style={{ fontSize: "0.75rem", color: "var(--text-muted)", marginTop: "var(--space-md)" }}>
-            Some links are affiliate links. We may earn a commission at no extra cost to you.
-            Our recommendations are based on independent testing.
-          </p>
-        </div>
-      )}
-    </>
-  );
-}
 
 /* ===== CARD COMPONENT ===== */
 function Card({
