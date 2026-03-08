@@ -31,6 +31,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/ai/best-ai-code-assistants`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/ai/ai-marketing-tools`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
 
+    // Guides
+    { url: `${base}/guides/best-tech-stack-small-business-2026`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/guides/vpn-for-remote-work`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/guides/ai-tools-save-time-small-business`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/guides/crm-buying-guide-small-business`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/guides/website-speed-optimization`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+
+    // Additional reviews
+    { url: `${base}/reviews/best-laptop-small-business`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/reviews/best-standing-desk`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+
+    // Tools
+    { url: `${base}/tools/tech-stack-calculator`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+
     // Supporting pages
     { url: `${base}/about`, lastModified: now, changeFrequency: "yearly", priority: 0.5 },
     { url: `${base}/contact`, lastModified: now, changeFrequency: "yearly", priority: 0.4 },
