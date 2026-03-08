@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 };
 
 export default function BestLaptopSmallBusiness() {
-  const amazonTag = "REPLACE_WITH_AMAZON_TAG";
+  const amazonTag = "jaxsod-20";
 
   return (
     <>
