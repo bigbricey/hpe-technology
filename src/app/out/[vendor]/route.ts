@@ -20,7 +20,7 @@ const affiliateLinks: Record<string, string> = {
   "getresponse": "https://www.getresponse.com",
   "hostinger": "https://www.hostinger.com",
   "hubspot": "https://www.hubspot.com",
-  "liquid-web": "https://www.liquidweb.com",
+  "liquid-web": "https://liquidweb.i3f2.net/c/6743040/347826/4464",
   "mondaycom": "https://monday.com",
   "nordvpn": "https://nordvpn.com",
   "notion": "https://www.notion.so",
