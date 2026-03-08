@@ -216,6 +216,80 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Buying Guides */}
+      <section>
+        <div className="container">
+          <div className="section-header">
+            <span className="section-label">Buying Guides</span>
+            <h2>Make Smarter Decisions</h2>
+            <p>
+              In-depth guides to help you choose the right tools without
+              overspending or getting locked into the wrong platform.
+            </p>
+          </div>
+          <div className="card-grid">
+            <Card
+              tag="CRM"
+              title="CRM Buying Guide for Small Business (2026)"
+              excerpt="How to pick the right CRM without overpaying. Features that matter, features that don't, and our top recommendations."
+              readTime="14 min"
+              href="/guides/crm-buying-guide-small-business"
+            />
+            <Card
+              tag="Security"
+              title="VPN for Remote Work: What You Actually Need"
+              excerpt="Not all VPNs are created equal for business use. Split tunneling, kill switches, and the features that protect your data."
+              readTime="11 min"
+              href="/guides/vpn-for-remote-work"
+            />
+            <Card
+              tag="Performance"
+              title="Website Speed Optimization: The Complete Guide"
+              excerpt="Your hosting is the #1 factor. Then images, caching, and code. Step-by-step guide to sub-2-second load times."
+              readTime="12 min"
+              href="/guides/website-speed-optimization"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Comparisons */}
+      <section>
+        <div className="container">
+          <div className="section-header">
+            <span className="section-label">Head-to-Head</span>
+            <h2>Tool Comparisons</h2>
+            <p>
+              Side-by-side breakdowns so you can pick the right tool for your
+              specific needs and budget.
+            </p>
+          </div>
+          <div className="card-grid">
+            <Card
+              tag="SEO"
+              title="Semrush vs Ahrefs for Freelance SEO Consultants"
+              excerpt="Both are great. But for freelancers juggling multiple clients, one clearly wins on reporting and value."
+              readTime="13 min"
+              href="/guides/semrush-vs-ahrefs-freelance-seo"
+            />
+            <Card
+              tag="CRM"
+              title="HubSpot vs Zoho CRM: Small Business Cost Comparison"
+              excerpt="Free tiers, paid tiers, and hidden costs. Which CRM actually saves you money as you grow?"
+              readTime="12 min"
+              href="/guides/hubspot-vs-zoho-crm-small-business"
+            />
+            <Card
+              tag="Hosting"
+              title="Liquid Web vs SiteGround: Premium Hosting Compared"
+              excerpt="Managed hosting showdown. Performance, support, and pricing for businesses that can't afford downtime."
+              readTime="10 min"
+              href="/comparisons/liquid-web-vs-siteground"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Newsletter */}
       <section className="newsletter-section">
         <div className="container">

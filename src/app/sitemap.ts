@@ -37,6 +37,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/guides/ai-tools-save-time-small-business`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/guides/crm-buying-guide-small-business`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/guides/website-speed-optimization`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/guides/semrush-vs-ahrefs-freelance-seo`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/guides/hubspot-vs-zoho-crm-small-business`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
 
     // Additional reviews
     { url: `${base}/reviews/best-laptop-small-business`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
