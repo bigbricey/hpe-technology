@@ -28,6 +28,8 @@ const affiliateLinks: Record<string, string> = {
   "protonvpn": "https://protonvpn.com",
   "salesce": "https://www.salesforce.com",
   "semrush": "https://www.semrush.com",
+  "siteground": "https://www.siteground.com/index.htm?afcode=c2941fdd460cd06f2934da5b8b7dca28",
+  "get-siteground": "https://www.siteground.com/index.htm?afcode=c2941fdd460cd06f2934da5b8b7dca28",
   "start-with-hubspot": "https://www.hubspot.com",
   "surfshark": "https://surfshark.com",
   "trello": "https://trello.com",
