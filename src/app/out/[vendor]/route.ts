@@ -22,6 +22,8 @@ const affiliateLinks: Record<string, string> = {
   "hubspot": "https://www.hubspot.com",
   "liquid-web": "https://liquidweb.i3f2.net/c/6743040/347826/4464",
   "mondaycom": "https://monday.com",
+  "nordpass": "https://go.nordpass.io/aff_c?offer_id=488&aff_id=141397&url_id=9356",
+  "get-nordpass": "https://go.nordpass.io/aff_c?offer_id=488&aff_id=141397&url_id=9356",
   "nordvpn": "https://go.nordvpn.net/aff_c?offer_id=15&aff_id=141397&url_id=902",
   "notion": "https://www.notion.so",
   "pipedrive": "https://www.pipedrive.com",
